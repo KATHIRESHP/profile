@@ -64,9 +64,9 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='text-4xl text-green-700 fixed right-11 bottom-11 shadow-xl rounded-3xl shadow-green-900 bg-transparent text-transparent bg-clip-text'>
+            <div className='text-4xl text-green-700 fixed right-11 bottom-11 shadow-xl rounded-3xl shadow-green-400 bg-clip-text'>
                 <a href='http://wa.me/918300393110' target='_blank'><i class="bi bi-whatsapp"></i></a>
-            </div>
+            </div> 
         </div>
     )
 }
