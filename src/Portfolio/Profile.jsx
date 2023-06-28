@@ -8,6 +8,7 @@ const Profile = (props) => {
                 <div className='gap-2 px-11 font-serif'>
                     <h1 className='text-5xl'>Kathiresh P</h1>
                     <p className='italic'>from Vellakovil, Tiruppur.</p>
+                    <p className='italic cursor-text'>Contact: kathireshpalanisamy055@gmail.com</p>
                 </div>
             </div>
             <div className='bg-teal-600 w-6/12 flex flex-col items-center justify-center'>

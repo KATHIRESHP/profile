@@ -11,10 +11,10 @@ import pdf from './Source/resume.pdf'
 const Home = () => {
     return (
         <div id='home'>
-            <div className='bg-teal-600 container h-full p-5 select-none'>
+            <div className='bg-teal-600 container h-full p-5'>
 
                 <div className='sticky top-0'>
-                    <div className='container bg-teal-800 px-3 flex justify-between mt-0 md:mt-8 sm:mt-0 rounded-md py-3KW'>
+                    <div className='container bg-teal-800 px-3 flex justify-between mt-0 md:mt-8 sm:mt-0 rounded-md py-3'>
                         <div className='flex cursor-none' style={{ height: "100px" }}>
                             <img src={mikey} ></img>
                         </div>
