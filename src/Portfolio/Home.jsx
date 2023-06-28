@@ -14,9 +14,9 @@ const Home = () => {
             <div className='bg-teal-600 container h-full xl:p-5 lg:p-3 md:p-1 sm:p-0'>
 
                 <div className='sticky top-0'>
-                    <div className='container bg-teal-800 pl-3 flex flex-col md:flex-row justify-between rounded-md '>
-                        <div className='flex cursor-none xl:w-4/12 md:w-6/12 justify-center sm:my-6  md:justify-start' style={{ height: "100px" }}>
-                            <img src={mikey} className='sm:w-3/12 rounded-md' ></img>
+                    <div className='container bg-teal-800 pl-3 xl:h-40 flex flex-col md:flex-row justify-between rounded-md '>
+                        <div className='flex md:w-4/12 justify-center sm:my-6  md:justify-start'>
+                            <img src={mikey} className=' cursor-none sm:w-3/12 rounded-md' ></img>
                         </div>
                         <div className='xl:w-6/12 md:w-9/12 sm:w-10/12 flex items-center'>
                             <NavBar />
