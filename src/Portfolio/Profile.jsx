@@ -8,7 +8,7 @@ const Profile = (props) => {
                 <div className='gap-2 xl:px-11 lg:px-7 md:px-3 sm:px-0 font-serif'>
                     <h1 className='xl:text-3xl lg:text-xl md:text-lg sm:text-lg '>Kathiresh P</h1>
                     <p className='italic'>from Vellakovil, Tiruppur.</p>
-                    <p className='italic cursor-text bg-teal-950 text-white xl:text-3xl lg:text-xl md:text-lg sm:text-lg '>Contact: kathireshpalanisamy055@gmail.com</p>
+                    <p className='italic cursor-text bg-teal-950 text-white text-lg md:text-xl '>Contact: kathireshpalanisamy055@gmail.com</p>
                 </div>
             </div>
             <div className='bg-teal-600 py-5 md:py-10 lg:w-6/12 sm:w-full md:w-full flex flex-col items-center justify-center'>

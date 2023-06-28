@@ -29,7 +29,7 @@ const Home = () => {
                     <Profile img={bg} />
                 </div>
 
-                <center id='projects' className='xl:text-3xl lg:text-xl md:text-lg sm:text-lg font-thin font-serif my-11'>Projects</center>
+                <center id='projects' className='xl:text-3xl lg:text-xl md:text-lg sm:text-xl font-thin font-serif my-11'>Projects</center>
                 <div className='container bg-white h-full grid grid-cols-2 md:grid-cols-3 gap-3 p-3 rounded-lg'>
                     <Project name="Student Detail management" description="In this project, We have developed a web application which holds the student details" used="HTML, CSS, XAMP" />
                     <Project name="Resume Builder" description="In this project, We have developed a web application which holds the student details" used="React" />
@@ -37,7 +37,7 @@ const Home = () => {
                     <Project name="Carbon footprint monitoring" description="In this project, We have developed a web application which holds the student details" used="Arduino IDE" />
                 </div>
 
-                <center id='skills' className='xl:text-3xl lg:text-xl md:text-lg sm:text-lg  font-thin font-serif my-11'>Technical Skills</center>
+                <center id='skills' className='xl:text-3xl lg:text-xl md:text-lg sm:text-xl  font-thin font-serif my-11'>Technical Skills</center>
                 <div className='container bg-white h-6/12 p-11 grid grid-cols-2 font-serif gap-11 items-center rounded-lg'>
                     <Skills class_name="fa-brands fa-java fa-2xl" name="Java" />
                     <Skills class_name="fa-solid fa-c" name="C language" />
@@ -45,7 +45,7 @@ const Home = () => {
                     <Skills class_name="fa-brands fa-node-js" name="Express Js" />
                 </div>
 
-                <center className='xl:text-3xl lg:text-xl md:text-lg sm:text-lg  font-thin font-serif my-11' id="internship">Internship</center>
+                <center className='xl:text-3xl lg:text-xl md:text-lg sm:text-xl font-thin font-serif my-11' id="internship">Internship</center>
                 <div className='container bg-white h-6/12 p-11 font-serif gap-2 items-center rounded-lg flex justify-center flex-col'>
                     <h1 className='text-2xl'>Web Development Internship</h1>
                     <h3 className=''>In MKCS Digit Tech, @Karur</h3><br />
@@ -57,11 +57,15 @@ const Home = () => {
                         </p>
                     </div>
                 </div>
-                <center className='xl:text-3xl lg:text-xl md:text-lg sm:text-lg  font-thin font-serif my-11'id="resume">Resume</center>
+                <center className='xl:text-3xl lg:text-xl md:text-lg sm:text-xl font-thin font-serif my-11' id="resume">Resume</center>
                 <div className='container bg-white h-6/12 p-11 text-xl font-serif items-center rounded-lg flex flex-col justify-center'>
-                <p>Here is my resume to download</p>
+                    <p>Here is my resume to download</p>
                     <a href={pdf} className='text-5xl mt-10 text-green-600' download><i class="bi bi-download"></i></a>
                 </div>
+            </div>
+
+            <div className='text-4xl text-green-700 fixed right-11 bottom-11 shadow-xl rounded-3xl shadow-green-900 bg-transparent text-transparent bg-clip-text'>
+                <a href='http://wa.me/918300393110' target='_blank'><i class="bi bi-whatsapp"></i></a>
             </div>
         </div>
     )
