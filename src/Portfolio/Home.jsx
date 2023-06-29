@@ -11,26 +11,26 @@ import pdf from './Source/resume.pdf'
 const Home = () => {
     return (
         <div id='home' className='w-screen'>
-            <div className='bg-teal-600 container h-full xl:p-5 lg:p-3 md:p-1 sm:p-0'>
+            <div className='bg-teal-600 h-full xl:p-5 lg:p-3 md:p-1 sm:p-0'>
 
                 <div className='static md:sticky top-0'>
-                    <div className='container bg-teal-800 pl-3 xl:h-40 flex flex-col md:flex-row justify-between rounded-md '>
-                        <div className='flex md:w-4/12 justify-center sm:my-6  md:justify-start'>
-                            <img src={mikey} className=' cursor-none sm:w-3/12 rounded-md md:hover:scale-125 md:hover:scale-y-150 md:hover:translate-x-10 md:hover:translate-y-10 transition-all ease-in-out ' ></img>
+                    <div className='bg-teal-800 flex flex-col md:flex-row justify-between rounded-md'>
+                        <div className='flex md:w-4/12 justify-center md:my-0 my-6  md:justify-start'>
+                            <img src={mikey} className=' cursor-none sm:w-3/12 rounded-md md:hover:scale-150 md:hover:scale-y-150 md:hover:translate-x-10 md:hover:translate-y-10 transition-all ease-in-out'></img>
                         </div>
-                        <div className='xl:w-6/12 md:w-9/12 sm:w-10/12 flex items-center'>
-                            <NavBar />
+                        <div className='sticky top-0 md:static md:top-auto xl:w-6/12 md:w-9/12 sm:w-10/12 flex items-center'>
+                            <NavBar /> 
                         </div>
                     </div>
                 </div>
 
                 <center id='projects' className='text-3xl font-thin font-serif my-11'>Profile</center>
-                <div className='container bg-white h-full p-1 md:p-3 rounded-lg'>
+                <div className='bg-white h-full p-1 md:p-3 rounded-lg'>
                     <Profile img={bg} />
                 </div>
 
                 <center id='projects' className='xl:text-3xl lg:text-xl md:text-lg sm:text-xl font-thin font-serif my-11'>Projects</center>
-                <div className='container bg-white h-full grid grid-cols-2 md:grid-cols-3 gap-3 p-3 rounded-lg'>
+                <div className='bg-white h-full grid grid-cols-2 md:grid-cols-3 gap-3 p-3 rounded-lg'>
                     <Project name="Student Detail management" description="In this project, We have developed a web application which holds the student details" used="HTML, CSS, XAMP" />
                     <Project name="Resume Builder" description="In this project, We have developed a web application which holds the student details" used="React" />
                     <Project name="Stem Dieseases Prediction" description="In this project, We have developed a web application which holds the student details" used="CNN algorithm, PyCharm" />
@@ -38,7 +38,7 @@ const Home = () => {
                 </div>
 
                 <center id='skills' className='xl:text-3xl lg:text-xl md:text-lg sm:text-xl  font-thin font-serif my-11'>Technical Skills</center>
-                <div className='container bg-white h-6/12 p-11 grid grid-cols-2 font-serif gap-11 items-center rounded-lg'>
+                <div className='bg-white h-6/12 p-11 grid grid-cols-2 font-serif gap-11 items-center rounded-lg'>
                     <Skills class_name="fa-brands fa-java fa-2xl" name="Java" />
                     <Skills class_name="fa-solid fa-c" name="C language" />
                     <Skills class_name="fa-brands fa-react" name="React" />
@@ -46,7 +46,7 @@ const Home = () => {
                 </div>
 
                 <center className='xl:text-3xl lg:text-xl md:text-lg sm:text-xl font-thin font-serif my-11' id="internship">Internship</center>
-                <div className='container bg-white h-6/12 p-11 font-serif gap-2 items-center rounded-lg flex justify-center flex-col'>
+                <div className='bg-white h-6/12 p-11 font-serif gap-2 items-center rounded-lg flex justify-center flex-col'>
                     <h1 className='text-2xl'>Web Development Internship</h1>
                     <h3 className=''>In MKCS Digit Tech, @Karur</h3><br />
                     <div className='grid grid-cols-1 md:grid-cols-3'>
@@ -58,7 +58,7 @@ const Home = () => {
                     </div>
                 </div>
                 <center className='xl:text-3xl lg:text-xl md:text-lg sm:text-xl font-thin font-serif my-11' id="resume">Resume</center>
-                <div className='container bg-white h-6/12 p-11 text-xl font-serif items-center rounded-lg flex flex-col justify-center'>
+                <div className='bg-white h-6/12 p-11 text-xl font-serif items-center rounded-lg flex flex-col justify-center'>
                     <p>Here is my resume to download</p>
                     <a href={pdf} className='text-5xl mt-10 text-green-600' download><i class="bi bi-download"></i></a>
                 </div>
