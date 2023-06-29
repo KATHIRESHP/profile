@@ -16,7 +16,7 @@ const Home = () => {
                 <div className='static md:sticky top-0'>
                     <div className='container bg-teal-800 pl-3 xl:h-40 flex flex-col md:flex-row justify-between rounded-md '>
                         <div className='flex md:w-4/12 justify-center sm:my-6  md:justify-start'>
-                            <img src={mikey} className=' cursor-none sm:w-3/12 rounded-md' ></img>
+                            <img src={mikey} className=' cursor-none sm:w-3/12 rounded-md md:hover:scale-125 md:hover:scale-y-150 md:hover:translate-x-10 md:hover:translate-y-10 transition-all ease-in-out ' ></img>
                         </div>
                         <div className='xl:w-6/12 md:w-9/12 sm:w-10/12 flex items-center'>
                             <NavBar />
@@ -64,7 +64,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='text-4xl text-green-700 fixed right-11 bottom-11 shadow-xl rounded-3xl shadow-green-400 bg-clip-text'>
+            <div className='text-4xl text-green-700 fixed right-11 bottom-11 shadow-xl rounded-3xl shadow-green-400 bg-clip-text hover:scale-150 hover:scale-y-150 transition-all ease-in-out '>
                 <a href='http://wa.me/918300393110' target='_blank'><i class="bi bi-whatsapp"></i></a>
             </div> 
         </div>
