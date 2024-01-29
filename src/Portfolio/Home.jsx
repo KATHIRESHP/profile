@@ -43,6 +43,7 @@ const Home = () => {
                     <Skills class_name="fa-solid fa-c" name="C language" />
                     <Skills class_name="fa-brands fa-react" name="React" />
                     <Skills class_name="fa-brands fa-node-js" name="Express Js" />
+                    <Skills class_name="fa-brands fa-php" name="Laravel" />
                 </div>
 
                 <center className='xl:text-3xl lg:text-xl md:text-lg sm:text-xl font-thin font-serif my-11' id="internship">Internship</center>
